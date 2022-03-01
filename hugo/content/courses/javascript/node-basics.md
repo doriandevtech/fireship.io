@@ -28,14 +28,14 @@ Follow these instructions to [install NodeJS](/snippets/install-nodejs/). This c
 
 ## Step 3 - Hello world
 
-Create a JavaScript file. 
+Create a JavaScript file:
 
 {{< file "js" "index.js" >}}
 ```javascript
 console.log('hello world')
 ```
 
-Run it with `node`. 
+Run it with `node`: 
 
 {{< file "terminal" "command line" >}}
 ```bash
@@ -132,7 +132,7 @@ npm install express
 
 ### Use Express to create an HTTP endpoint
 
-Create an HTML file. 
+Create an HTML file:
 
 {{< file "html" "home.html" >}}
 ```html
@@ -169,14 +169,14 @@ app.listen(process.env.PORT || 3000, () => console.log(`App available on http://
 
 Create a Google Cloud account and install the [gcloud SDK](https://cloud.google.com/sdk). 
 
-Configure your server. 
+Configure your server:
 
 {{< file "yaml" "app.yaml" >}}
 ```yaml
 runtime: nodejs12
 ```
 
-Deploy it.
+Deploy it:
 
 {{< file "terminal" "command line" >}}
 ```text
